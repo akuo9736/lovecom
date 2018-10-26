@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-body { 
-    background-image: url('file:///C|/Users/angie/Desktop/SYD/Year 1 - Semester 2/DECO1016 Web design/DECO1016 assessment 3/image/bg.jpg');
+body {
+    background:#000000;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 	margin: 0px;
 	font-family: karla;
 }
@@ -49,5 +49,29 @@ section {
 	width: 90%;
 	background-color: white;
 	margin:auto;
+	padding:20px;
 	opacity:0.8;
+}
+
+
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+	h3{
+		color: #a49727;
+	}
+
+
+.week1 {
+	background-color:#E5C9FE;
+	padding:30px;
+}
+
+.week2 {
+	background-color:#ebebeb;
+	padding:30px;
 }
